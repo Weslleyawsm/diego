@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funerária Rio de Janeiro 24h - Preço de Funeral e Cremação | Assistência Funerária RJ</title>
+    <meta name="description" content="Funerária no Rio de Janeiro com atendimento 24h. Funerais, cremação, translado de corpo e planos funerários RJ. Preços justos e atendimento humanizado. Ligue agora!">
+    <meta name="keywords" content="funerária, funerária Rio de Janeiro, preço de funeral, crematório Rio de Janeiro, translado de corpo, assistência funerária RJ, plano funerário RJ">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://funerariarj.com.br">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Funerária Rio de Janeiro 24h - Atendimento Imediato">
+    <meta property="og:description" content="Assistência funerária completa no RJ. Funerais, cremação e translado 24h. Conte conosco neste momento difícil.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://funerariarj.com.br">
+
+    <!-- Schema.org Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Funerária Central Funerária Rio de Janeiro",
+        "description": "Funerária com atendimento 24h no Rio de Janeiro",
+        "telephone": "+55-21-99999-9999",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. Principal, 123",
+            "addressLocality": "Rio de Janeiro",
+            "addressRegion": "RJ",
+            "postalCode": "20000-000",
+            "addressCountry": "BR"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-22.9068",
+            "longitude": "-43.1729"
+        },
+        "url": "https://funerariarj.com.br",
+        "priceRange": "$$",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "areaServed": "Rio de Janeiro",
+        "serviceType": "Funeral Services"
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #475569;
+            --accent-color: #059669;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f8fafc;
+            --white: #ffffff;
+            --shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+
+        /* Header Fixo */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--white);
+            box-shadow: var(--shadow);
+            z-index: 1000;
+            padding: 0.4rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.0rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .header-ctas {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background: #1e40af;
+            transform: translateY(-2px);
+        }
+
+        .btn-whatsapp {
+            background: #25d366;
+            color: var(--white);
+        }
+
+        .btn-whatsapp:hover {
+            background: #128c7e;
+            transform: translateY(-2px);
+        }
+
+        .btn-phone {
+            background: #dc2626 !important;
+            color: white !important;
+            animation: pulse-red 2s infinite;
+        }
+
+        .btn-phone:hover {
+            background: #b91c1c !important;
+        }
+
+        @keyframes pulse-red {
+            0% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7);
+            }
+            70% {
+                transform: scale(1.05);
+                box-shadow: 0 0 0 10px rgba(220, 38, 38, 0);
+            }
+            100% {
+                transform: scale(1);
+                box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+            }
+        }
+
+        /* WhatsApp Flutuante */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: var(--white);
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* Seção Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: var(--white);
+            padding: 2rem 0 1.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" opacity="0.1"><circle cx="500" cy="500" r="400" fill="none" stroke="white" stroke-width="2"/></svg>');
+            background-size: 200px 200px;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.0rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+
+        .btn-large {
+            padding: 0.8rem 1.5rem;
+            font-size: 0.8rem;
+        }
+
+        /* Provas Sociais */
+        .social-proof {
+            background: var(--white);
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .proof-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .stat-item {
+            padding: 1.5rem;
+            border-radius: 12px;
+            background: var(--bg-light);
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            display: block;
+        }
+
+        .stat-label {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .reviews {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .review-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        .stars {
+            color: #fbbf24;
+            margin-bottom: 1rem;
+        }
+
+        .review-text {
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .reviewer-name {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        /* Serviços */
+        .services {
+            padding: 6rem 0;
+            background: var(--bg-light);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: var(--white);
+            padding: 1.2rem;
+            border-radius: 5px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .service-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .service-card p {
+            color: var(--text-light);
+            margin-bottom: 0.2rem;
+        }
+
+        .plan-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .plan-price {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .plan-price-note {
+            color: var(--text-light);
+            margin-bottom: 2rem;
+        }
+
+        /* FAQ */
+        .faq {
+            padding: 6rem 0;
+            background: var(--bg-light);
+        }
+
+        .faq-item {
+            background: var(--white);
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            background: var(--white);
+            border: none;
+            width: 100%;
+            text-align: left;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question:hover {
+            background: var(--bg-light);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer.active {
+            max-height: 200px;
+            padding: 1.5rem;
+        }
+
+        /* CTA Final */
+        .final-cta {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: var(--white);
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .final-cta p {
+            font-size: 0.8rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        /* Rodapé */
+        .footer {
+            background: var(--text-dark);
+            color: var(--white);
+            padding: 3rem 0 1rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: var(--white);
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: #9ca3af;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .footer-section a:hover {
+            color: var(--white);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #374151;
+            color: #9ca3af;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            /* Header Mobile */
+            .header {
+                padding: 1.9rem 0;  /* ← MUDEI AQUI (era 0.75rem 0) */
+            }
+
+            /* Hero Mobile */
+            .hero {
+                padding: 4rem 0 3rem;  /* ← MUDEI AQUI (era 6rem 0 4rem) */
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 1.25rem;
+                line-height: 1.3;
+                margin-bottom: 1.5rem;
+                padding: 0 1rem;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                hyphens: auto;
+            }
+
+            /* Ajustes de Padding para Header Fixo */
+            body {
+                padding-top: 80px;
+            }
+            .btn {
+                padding: 0.5rem 1rem;
+                font-size: 0.85rem;
+                min-height: 36px;
+            }
+            .section-title h2 {
+                font-size: 1.4rem;
+                margin-bottom: 0.75rem;
+                line-height: 1.3;
+            }
+        }
+        .service-card h3 {
+            font-size: 0.8rem;        /* ← AQUI (tamanho da fonte) */
+            margin-bottom: 0.75rem;
+        }
+
+        @media (max-width: 480px) {
+            /* Smartphones pequenos */
+            .hero h1 {
+                font-size: 1.1rem;
+                padding: 0 0.75rem;
+                line-height: 1.25;
+            }
+
+            body {
+                padding-top: 90px;  /* ← MUDEI AQUI (era 140px) */
+            }
+        }
+        .logo-svg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-svg svg {
+            max-width: 80px;
+            height: auto;
+        }
+        .logo-svg svg {
+            max-width: 90px;
+            height: auto;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+            background: white;
+            border-radius: 50%;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            justify-content: flex-start;
+        }
+
+        .logo-text-side {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #1e3a8a;
+            line-height: 1.2;
+            text-align: left;
+            display: flex;
+            align-items: left;
+            transform: translateX(-20px);
+        }
+
+        /* Mobile - texto embaixo */
+        @media (max-width: 768px) {
+            .logo-container {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                }
+
+                .logo-text-side {
+                    font-size: 1.2rem;
+                    transform: translateX(-20px) !important;
+                }
+            }
+        @media (max-width: 480) {
+            .logo-container {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                }
+
+                .logo-text-side {
+                    font-size: 1.2rem;
+                    transform: translateX(-20px) !important;
+                }
+            }
+
+
+        /* Utilitários */
+        .text-center { text-align: center; }
+        .mb-3 { margin-bottom: 3rem; }
+        .mt-3 { margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <!-- Header Fixo -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <div class="logo-svg">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <!-- Círculo externo -->
+                            <circle cx="50" cy="50" r="45" fill="white" stroke="#1e3a8a" stroke-width="2"/>
+
+                            <!-- Texto curvado superior -->
+                            <path id="circle-top" d="M 15 50 A 35 35 0 0 1 85 50" fill="none"/>
+                            <text font-size="8" font-weight="bold" fill="#1e3a8a">
+                                <textPath href="#circle-top" startOffset="50%" text-anchor="middle">
+                                    CENTRAL FUNERÁRIA
+                                </textPath>
+                            </text>
+
+                            <!-- Texto curvado inferior -->
+                            <path id="circle-bottom" d="M 15 50 A 35 35 0 0 0 85 50" fill="none"/>
+                            <text font-size="10" font-weight="bold" fill="#1e3a8a">
+                                <textPath href="#circle-bottom" startOffset="50%" text-anchor="middle">
+                                    RIO DE JANEIRO
+                                </textPath>
+                            </text>
+
+                            <!-- Pomba no centro -->
+                            <text x="50" y="55" font-size="40" text-anchor="middle">🕊️</text>
+                        </svg>
+                    </div>
+                    </div>
+                    <div class="logo-text-side">
+                        CENTRAL FUNERÁRIA RJ
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- WhatsApp Flutuante -->
+    <a href="https://api.whatsapp.com/send?phone=55219660680452&text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20funer%C3%A1rios"
+       class="whatsapp-float"
+       target="_blank"
+       onclick="trackConversion('whatsapp_float')"
+       title="Fale conosco no WhatsApp">
+        💬
+    </a>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Atendimento Funerário 24h<br>no Rio de Janeiro<br><span class="subtitle">Rápido, Digno e Humanizado</span></h1>
+                <p>Auxiliamos você com todo o suporte necessário - funerais, cremações, traslados - com agilidade e respeito. Conte conosco neste momento difícil.</p>
+
+                <div class="hero-ctas">
+                    <a href="https://api.whatsapp.com/send?phone=55219660680452&text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20funer%C3%A1rios"
+                       class="btn btn-whatsapp btn-large"
+                       target="_blank"
+                       onclick="trackConversion('whatsapp_hero')">
+                        💬 Fale pelo WhatsApp
+                    </a>
+                    <a href="tel:+5521984058592"
+                       class="btn btn-phone"
+                       onclick="trackConversion('phone_hero')">
+                        📞 Ligar Agora - 24h
+                    </a>
+                </div>
+
+                <div style="margin-top: 2rem; font-size: 1.1rem; opacity: 0.9;">
+                    ⚡ <strong>Respostas em menos de 2 minutos</strong> | 🏥 Liberação hospitalar ágil | 🚗 Atendimento em todo RJ
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="proof-stats">
+                <div class="stat-item">
+                    <span class="stat-number">5.000+</span>
+                    <span class="stat-label">Famílias Atendidas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">20</span>
+                    <span class="stat-label">Anos de Experiência</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4.9★</span>
+                    <span class="stat-label">Avaliação Google</span>
+                </div>
+
+            </div>
+
+            <div class="reviews">
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Atendimento excepcional num momento muito difícil. A equipe foi muito respeitosa e cuidadosa com todos os detalhes. Recomendo."</p>
+                    <p class="reviewer-name">- Maria Silva, Copacabana</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Profissionais competentes e humanizados. Cuidaram de tudo com muito carinho e respeito pela nossa família."</p>
+                    <p class="reviewer-name">- João Santos, Tijuca</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Atendimento 24h real. Nos atenderam de madrugada com a mesma dedicação. Muito obrigada por tudo."</p>
+                    <p class="reviewer-name">- Ana Costa, Barra da Tijuca</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços Funerários no Rio de Janeiro</h2>
+                <p>Assistência funerária completa com atendimento 24 horas em todo o município do RJ</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">⚱️</div>
+                    <h3>Funerais Tradicionais</h3>
+                    <p>Cerimônias dignas e respeitosas, com todo suporte necessário para homenagear seu ente querido com o carinho que merece.</p>
+                    <a href="https://api.whatsapp.com/send?phone=55219660680452&text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20funer%C3%A1rios"
+                       class="btn btn-primary"
+                       target="_blank"
+                       onclick="trackConversion('service_funeral')">
+                        Solicitar Orçamento
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔥</div>
+                    <h3>Crematório Rio de Janeiro</h3>
+                    <p>Serviços de cremação em crematórios licenciados no RJ, com acompanhamento familiar e todas as documentações necessárias.</p>
+                    <a href="https://api.whatsapp.com/send?phone=55219660680452&text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20funer%C3%A1rios"
+                       class="btn btn-primary"
+                       target="_blank"
+                       onclick="trackConversion('service_cremation')">
+                        Consultar Disponibilidade
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🚗</div>
+                    <h3>Translado de Corpo</h3>
+                    <p>Transporte seguro e respeitoso nacional e internacional, com toda documentação e licenças necessárias.</p>
+                    <a href="https://api.whatsapp.com/send?phone=55219660680452&text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20funer%C3%A1rios"
+                       class="btn btn-primary"
+                       target="_blank"
+                       onclick="trackConversion('service_transport')">
+                        Solicitar Atendimento
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>Plano Funerário RJ</h3>
+                    <p>Planos funerários acessíveis para sua família, com cobertura completa e parcelamento facilitado.</p>
+                    <a href="https://api.whatsapp.com/send?phone=55219660680452&text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20funer%C3%A1rios"
+                       class="btn btn-primary"
+                       target="_blank"
+                       onclick="trackConversion('service_plan')">
+                        Ver Planos
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3>Liberação Hospitalar</h3>
+                    <p>Cuidamos de toda documentação e liberação hospitalar, agilizando os procedimentos burocráticos.</p>
+                    <a href="https://api.whatsapp.com/send?phone=55219660680452&text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20funer%C3%A1rios"
+                       class="btn btn-primary"
+                       target="_blank"
+                       onclick="trackConversion('service_hospital')">
+                        Solicitar Apoio
+                    </a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🌹</div>
+                    <h3>Assistência Funerária RJ</h3>
+                    <p>Suporte completo 24h com equipe especializada, flores, música, ornamentação e tudo que precisar.</p>
+                    <a href="https://api.whatsapp.com/send?phone=55219660680452&text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20funer%C3%A1rios"
+                       class="btn btn-primary"
+                       target="_blank"
+                       onclick="trackConversion('service_assistance')">
+                        Falar com Especialista
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Perguntas Frequentes</h2>
+                <p>Esclarecemos suas principais dúvidas sobre serviços funerários no RJ</p>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Como funciona o atendimento 24 horas no Rio de Janeiro?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nossa equipe está disponível 24 horas por dia, 7 dias por semana, em todo o município do Rio de Janeiro. Atendemos chamados a qualquer hora, incluindo fins de semana e feriados, com tempo médio de resposta inferior a 2 minutos.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Quais documentos são necessários para um funeral?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Para um funeral, são necessários: certidão de óbito, documento de identidade do falecido, CPF, declaração de óbito médica e, em alguns casos, documentos específicos do plano de saúde. Nossa equipe auxilia na obtenção de toda documentação necessária.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Quanto tempo leva para liberar o corpo no hospital?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O tempo de liberação hospitalar varia entre 2 a 6 horas, dependendo da causa do óbito e documentação. Nossa equipe especializada agiliza todos os procedimentos burocráticos para reduzir este tempo ao máximo.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Como funciona o translado de corpo para outras cidades?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Realizamos translado nacional e internacional com veículos apropriados e todas as licenças necessárias. Cuidamos da documentação, conservação do corpo e acompanhamento até o destino final.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Posso parcelar os custos do funeral?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim, oferecemos parcelamento em até 24x no cartão de crédito e também aceitamos PIX, transferência bancária e dinheiro. Trabalhamos com preços justos para não sobrecarregar a família em momento tão delicado.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Vocês atendem todos os bairros do Rio de Janeiro?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim, atendemos todos os bairros do município do Rio de Janeiro: Copacabana, Ipanema, Tijuca, Barra da Tijuca, Botafogo, Centro, Zona Norte, Zona Sul, Zona Oeste e todas as demais localidades.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Como funciona a cremação no Rio de Janeiro?
+                        <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A cremação é realizada em crematórios licenciados no RJ, com acompanhamento familiar se desejado. O processo leva cerca de 2-3 horas e as cinzas são entregues em urna especial dentro de 24-48 horas após o procedimento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Conte Conosco Neste Momento Difícil</h2>
+            <p>Funerária no Rio de Janeiro com suporte completo 24h por dia. Atendimento imediato com total respeito.</p>
+
+            <div class="hero-ctas">
+                <a href="https://api.whatsapp.com/send?phone=55219660680452&text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20funer%C3%A1rios"
+                   class="btn btn-whatsapp btn-large"
+                   target="_blank"
+                   onclick="trackConversion('whatsapp_final')">
+                    💬 WhatsApp - Resposta em 2min
+                </a>
+                <a href="tel:+5521984058592"
+                   class="btn btn-phone"
+                   onclick="trackConversion('phone_final')">
+                    📞 Ligar Agora - (21) 96606-80452
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Funerária Central Funerária RJ</h3>
+                    <p>Assistência funerária 24h no Rio de Janeiro com dignidade, respeito e humanização.</p>
+                    <p><strong>CNPJ:</strong> 12.345.678/0001-90</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <a href="tel:+5521984058592">📞 (21) 98405-8592</a>
+                    <a href="https://api.whatsapp.com/send?phone=55219660680452&text=Ol%C3%A1,%20preciso%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20funer%C3%A1rios" target="_blank">💬 WhatsApp: (21) 98405-8592</a>
+                    <a href="contato@centralfunerariarj.com">✉️ contato@centralfunerariarj.com</a>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Endereço</h3>
+                    <p>📍 R. Frei Caneca, S/N - Centro, Rio de Janeiro - RJ, 2011-030<br>
+                    Centro - Rio de Janeiro/RJ<br>
+                    CEP: 2011-030</p>
+                    <p><strong>Horário:</strong> 24 horas por dia</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Áreas Atendidas</h3>
+                    <p>Atendemos todo o município do Rio de Janeiro:</p>
+                    <p>Zona Sul, Zona Norte, Zona Oeste, Centro, Tijuca, Barra da Tijuca, Copacabana, Ipanema, Botafogo e todos os demais bairros.</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Funerária Paz Eterna. Todos os direitos reservados. | <a href="#privacy">Política de Privacidade</a> | <a href="#terms">Termos de Uso</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Função para alternar FAQ
+        function toggleFAQ(button) {
+            const answer = button.nextElementSibling;
+            const icon = button.querySelector('span');
+
+            if (answer.classList.contains('active')) {
+                answer.classList.remove('active');
+                icon.textContent = '+';
+            } else {
+                // Fecha todas as outras FAQs
+                document.querySelectorAll('.faq-answer.active').forEach(item => {
+                    item.classList.remove('active');
+                    item.previousElementSibling.querySelector('span').textContent = '+';
+                });
+
+                answer.classList.add('active');
+                icon.textContent = '-';
+            }
+        }
+
+        // Tracking de conversões para Google Ads
+        function trackConversion(action) {
+            // Google Analytics 4 Event
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-CONVERSION_ID/' + action,
+                    'event_category': 'lead_generation',
+                    'event_label': action,
+                    'value': 1
+                });
+            }
+
+            // Facebook Pixel Event
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'Lead', {
+                    content_name: action,
+                    content_category: 'funeral_service'
+                });
+            }
+
+            // Console log para debug
+            console.log('Conversion tracked:', action);
+        }
+
+        // Scroll suave para links internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Adiciona margem superior ao corpo para compensar header fixo
+        document.body.style.paddingTop = '80px';
+
+        // Google Tag Manager / Google Analytics - Adicione seu código aqui
+        // Exemplo:
+        /*
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-XXXXXXX');
+        */
+    </script>
+
+    <!-- Google Tag Manager (noscript) - Adicione aqui -->
+    <!--
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    -->
+</body>
+</html>
